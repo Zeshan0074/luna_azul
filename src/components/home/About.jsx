@@ -8,7 +8,7 @@ export default function About() {
         <h1 className="text-center md:text-start text-3xl font-semibold  mb-6 text-[#0eedaa]">
           ABOUT LUNA AZUL
         </h1>
-        <p className="text-lg leading-relaxed">
+        <p className="text-lg text-start">
           Luna Azul Roatan Real Estate is a new investment opportunity located on the island of Roatan. It was created by the European developer behind several other successful developments in the French Harbour area of Roatan, including Coral Views Village, White Hill, and Pangea Beach.
         </p>
       </div>
