@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This path is for the background image that we add in our hero section */
+.hero-section {
+  position: relative;
+  background-image: url('./assets/hero-background.jpeg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 90vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity */
+  z-index: 0; /* Make sure the overlay is behind the content */
+}
+
+.hero-section .hero-content {
+  position: relative;
+  z-index: 1; /* Ensure the content is above the overlay */
+  color: white; /* Adjust text color as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+/* This styling is for hero section buttons */
+.button-1 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: #0eedaa; /* Set default background color to gray */
+  color: white; /* Adjust text color */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: background-color 0.2s ease; /* Smooth transition for background color change */
+}
+
+.button-1:after {
+  content: "";
+  background-color: #20c78a; /* Hover color (green) */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: top 0.2s ease, left 0.2s ease;
+}
+
+.button-1:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.button-1:hover {
+  background-color: #20c78a; /* Change background color on hover */
+}
+
+
+
+.button-2 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: white; /* Set default background color to gray */
+  color: black; /* Adjust text color */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: background-color 0.2s ease; /* Smooth transition for background color change */
+}
+
+.button-2:after {
+  content: "";
+  background-color: #20c78a; /* Hover color (green) */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: top 0.2s ease, left 0.2s ease;
+}
+
+.button-2:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.button-2:hover {
+  background-color: #20c78a; /* Change background color on hover */
+}
+
+
+
+/* Container for logos */
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%; /* Ensure it takes full width */
+}
+
+/* Overlay for hiding the edges of the sliding content */
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px; /* Adjust as needed */
+  height: 100%;
+  content: "";
+  z-index: 2;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.logos:before {
+  left: 0;
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* Animation for sliding logos */
+.logos-slide {
+  display: flex;
+  flex-direction: row;
+  width: 200%; /* Ensure the width accommodates the entire scroll */
+  animation: slide 20s linear infinite;
+}
+
+/* Styling for individual images */
+.logos-slide img {
+  height: 25px;
+  margin: 0 20px; /* Adjust spacing between images */
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+/* LuxuryAmenities.css */
+.amenity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  overflow: hidden;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.amenity-image {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.67%; /* Maintains aspect ratio */
+  overflow: hidden;
+  height: 400px;
+}
+
+.amenity-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rounded-top-left img {
+  border-top-left-radius: 70%; /* Rounds the top-left corner */
+}
+
+.rounded-bottom-right img {
+  border-bottom-right-radius: 70%; /* Rounds the bottom-right corner */
+}
