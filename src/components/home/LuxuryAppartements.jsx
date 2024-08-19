@@ -29,7 +29,7 @@ const LuxuryAmenities = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-24 px-4 lg:px-8 pt-12 bg-gray-100">
+    <div className="container mx-auto mt-[100px] md:mt-24 px-4 lg:px-8 pt-12 bg-gray-100">
       <h2 className="text-center text-3xl font-semibold  mb-6 text-[#0dd67f]">LUXURY AMENITIES</h2>
       <p className="text-center text-lg text-gray-500 mb-16">Designed for Your Lifestyle</p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
