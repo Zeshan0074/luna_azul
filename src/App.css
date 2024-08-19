@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d3d3d3; /* Light gray color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d514f; /* Desired thumb color */
+  border-radius: 10px;
+  border: 2px solid #d3d3d3; /* Matches the track color */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #5c5e5d #d3d3d3;
+}
+
+
 /* This path is for the background image that we add in our hero section */
 .hero-section {
   position: relative;
