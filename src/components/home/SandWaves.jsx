@@ -1,6 +1,6 @@
 import React from 'react'
 import Wave from 'react-wavify';
-import sandimg from "../../assets/sandimage2.jpeg";
+import sandimg from "../../assets/sandimage.png";
 
 
 
