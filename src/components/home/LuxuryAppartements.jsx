@@ -29,8 +29,8 @@ const LuxuryAmenities = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-[360px] px-4 lg:px-8 bg-gray-100">
-      <h2 className="text-center text-3xl font-semibold  mb-6 text-[#0eedaa]">LUXURY AMENITIES</h2>
+    <div className="container mx-auto mt-[340px] px-4 lg:px-8 pt-12 bg-gray-100">
+      <h2 className="text-center text-3xl font-semibold  mb-6 text-[#0dd67f]">LUXURY AMENITIES</h2>
       <p className="text-center text-lg text-gray-500 mb-16">Designed for Your Lifestyle</p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         {amenities.map((amenity, index) => (

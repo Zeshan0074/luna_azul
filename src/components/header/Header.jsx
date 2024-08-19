@@ -27,14 +27,14 @@ export default function Header() {
                 <div className='flex items-center gap-x-2'>
                     {/* <img src={logo} alt='logo' className='w-[180px]' /> */}
                     <FcHome size={40}/>
-                    <h1 className='font-bold text-xl hover:text-[#0eedaa] hover:scale-105 duration-200'>LUNA AZAL</h1>
+                    <h1 className='font-bold text-xl hover:text-[#0dd67f] hover:scale-105 duration-200'>LUNA AZAL</h1>
 
                 </div>
                 <div>
                     <ul className='flex gap-x-5 font-semibold hover:cursor-pointer'>
-                        <li className='hover:text-[#0eedaa] hover:scale-105 duration-200'>Home</li>
-                        <li className='hover:text-[#0eedaa] hover:scale-105 duration-200'>About</li>
-                        <li className='hover:text-[#0eedaa] hover:scale-105 duration-200'>Contact us</li>
+                        <li className='hover:text-[#0dd67f] hover:scale-105 duration-200'>Home</li>
+                        <li className='hover:text-[#0dd67f] hover:scale-105 duration-200'>About</li>
+                        <li className='hover:text-[#0dd67f] hover:scale-105 duration-200'>Contact us</li>
                     </ul>
                 </div>
             </div>
@@ -71,14 +71,14 @@ export default function Header() {
                 >
                     <ul className='block items-center gap-x-11 flex-wrap'>
 
-                        <li className='text-[18px] py-2 md:text-[24px]    my-2 hover:text-[#0eedaa] hover:scale-105 duration-200'>
+                        <li className='text-[18px] py-2 md:text-[24px]    my-2 hover:text-[#0dd67f] hover:scale-105 duration-200'>
                             Home
                         </li>
 
-                        <li className='text-[18px] py-2 md:text-[24px]   my-2  hover:text-[#0eedaa] hover:scale-105 duration-200'>
+                        <li className='text-[18px] py-2 md:text-[24px]   my-2  hover:text-[#0dd67f] hover:scale-105 duration-200'>
                             About
                         </li>
-                        <li className='text-[18px] py-2 md:text-[24px]    my-2 hover:text-[#0eedaa] hover:scale-105 duration-200'>
+                        <li className='text-[18px] py-2 md:text-[24px]    my-2 hover:text-[#0dd67f] hover:scale-105 duration-200'>
                             Contact us
                         </li>
                     </ul>

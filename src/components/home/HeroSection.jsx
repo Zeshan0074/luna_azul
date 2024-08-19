@@ -14,7 +14,7 @@ export default function HeroSection() {
             {/* This div is for buttons */}
 
             <div className='flex flex-col gap-y-5 md:flex-row justify-center gap-x-24 items-center w-[95%] md:w-[40%] mb-24'>
-                <button class="button-1 w-1/2 md:w-[150px] relative text-sm  tracking-wide py-3 px-5 border border-black cursor-pointer bg-white hover:bg-[#20c78a] hover:text-white transition-all duration-200">
+                <button class="button-1 w-1/2 md:w-[150px] relative text-sm  tracking-wide py-3 px-5 border border-black cursor-pointer bg-white hover:bg-[#0dd67f] hover:text-white transition-all duration-200">
                     Buy
                 </button>
                 <button class="button-2 w-1/2 md:w-[150px] relative text-sm tracking-wide py-3 border border-black cursor-pointer bg-white hover:bg-black hover:text-white transition-all duration-200">

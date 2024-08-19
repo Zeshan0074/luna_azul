@@ -7,7 +7,7 @@ function Footer() {
       <div className="container px-2 md:px-6 py-4 mx-auto bg-gray-100 mt-12">
         <div className="flex flex-col items-center justify-between md:flex-row">
           <div className="mb-4 md:mb-0">
-            <h2 className="text-2xl font-bold py-2 text-[#0eedaa]">LUNA AZUL</h2>
+            <h2 className="text-2xl font-bold py-2 text-[#0dd67f]">LUNA AZUL</h2>
             <p className="mt-2">Discover unparalleled luxury and comfort with our meticulously designed spaces</p>
           </div>
           <div className="flex space-x-6 py-2">

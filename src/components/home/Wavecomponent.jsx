@@ -27,7 +27,7 @@ export default function Wavecomponent() {
 
        {/* Swiper Section */}
        <div className='relative z-20 mt-10 px-2 md:px-6'>
-        <h2 className="text-center text-3xl font-semibold mb-6 text-[#0eedaa]">Top Rated House</h2>
+        <h2 className="text-center text-3xl font-semibold mb-6 text-[#0dd67f]">Top Rated House</h2>
         <p className="text-center text-lg text-gray-500 mb-16">
           🌟 Top rated house in the country 🌟
         </p>

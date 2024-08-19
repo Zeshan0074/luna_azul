@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className='flex flex-col md:flex-row justify-center items-center mx-4 md:mx-0 mt-10 px-10'>
       <div className='w-full md:w-[60%] text-center md:text-left mb-8 md:mb-0'>
-        <h1 className="text-center md:text-start text-3xl font-semibold  mb-6 text-[#0eedaa]">
+        <h1 className="text-center md:text-start text-3xl font-semibold  mb-6 text-[#0dd67f]">
           ABOUT LUNA AZUL
         </h1>
         <p className="text-lg text-start">
